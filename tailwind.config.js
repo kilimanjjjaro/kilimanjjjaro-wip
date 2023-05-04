@@ -2,7 +2,16 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'rotate': 'rotating 50s linear infinite',
+      },
+      keyframes: {
+        rotating: {
+          '100%': { transform: 'rotate(360deg)' },
+        }
+      }
+    },
   },
   plugins: [],
 }
