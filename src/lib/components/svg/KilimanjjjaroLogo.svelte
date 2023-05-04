@@ -1,5 +1,5 @@
 <svg
-	class="w-20 fill-white animate-rotate will-change-transform"
+	class="w-20 transition-colors duration-300 ease-in-out fill-white animate-rotate will-change-transform xl:hover:fill-primary"
 	xmlns="http://www.w3.org/2000/svg"
 	viewBox="0 0 887.2 905.1"
 	><path
