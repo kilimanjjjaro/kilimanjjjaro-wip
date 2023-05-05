@@ -13,7 +13,12 @@
 		>
 			Steve
 		</a>
-		<a href="https://github.com/kilimanjjjaro" target="_blank" rel="noopener noreferrer">
+		<a
+			aria-label="Visit GitHub"
+			href="https://github.com/kilimanjjjaro"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
 			<GithubLogo />
 		</a>
 	</div>
